@@ -1,0 +1,15 @@
+body{
+    background-image: url("/slot2/img2/sfondoo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;                                                     
+ }
+
+
+#corceimg{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 3%;
+    height: 5%;
+}

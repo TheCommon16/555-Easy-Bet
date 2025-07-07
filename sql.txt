@@ -1,0 +1,29 @@
+CREATE DATABASE utentislot;
+
+CREATE TABLE utenti(
+	ID INT(11) AUTO_INCREMENT NOT NULL PRIMARY KEY,
+	nome varchar(50) NOT NULL,
+	cognome varchar(50) NOT NULL,
+	username varchar(50) NOT NULL,
+	userpassword varchar(255) NOT NULL,
+	money INT(11) NOT NULL
+)
+
+CREATE TABLE logspin(
+	ID_logspin int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    gametype int(11) NOT NULL,
+    logspin varchar(255) NOT NULL,
+    userbetsize int(11) NOT NULL,
+    userbalance int(11) NOT NULL,
+    userwin int(11) NOT NULL,
+    usernewbalance int(11) NOT NULL,
+	id_user int(11) NOT NULL,
+    dataspin DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    
+    FOREIGN KEY (id_user) REFERENCES utenti(ID)
+
+)
+
+CREATE USER 'banchiere'@'localhost' IDENTIFIED BY '555EasyBet!';
+GRANT SELECT, INSERT, UPDATE ON utentislot.utenti TO 'banchiere'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON utentislot.logspin TO 'banchiere'@'localhost';
