@@ -1,0 +1,48 @@
+#TitleTablle{
+    font-size: 1.7vw;
+}
+
+#moneyleaderboard {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    background-color: yellow;
+    border-collapse: collapse;
+}
+
+#moneyleaderboard th, #moneyleaderboard td {
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.user-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2vw;
+}
+
+.username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.money {
+    color: green;
+    font-size: 1vw;
+}   
+
+#corceimg{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 3%;
+    height: 5%;
+}
+
+body{
+
+    background-color: black;
+
+}

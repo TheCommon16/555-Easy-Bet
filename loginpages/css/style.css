@@ -1,0 +1,146 @@
+#leftborder{
+    position: absolute;
+
+    background-color: black;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+    height: 100%;
+}
+
+#selectzone{
+    position: absolute;
+    background-color: rgb(136, 136, 136);
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+     box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+#divlogo{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 80%;
+    height: 15%;
+      transition: transform 0.2s;
+}
+
+#divlogo:hover #logoimg2{
+   transform: scale(1.2); 
+    transition: transform .2s;
+}
+#divlogo:hover, #logoimg2:hover{
+   transform: scale(1.2); 
+    transition: transform .2s;
+}
+
+#logoimg1{
+    position: relative;
+    
+    width: 30%;
+    height: 100%;
+}
+#logoimg2{
+    position: relative;
+    transition: transform 0.2s;
+    width: 30%;
+    height: 110%;
+}
+#logoimg3{
+    position: relative;
+
+    width: 30%;
+    height: 100%;
+}
+
+
+
+
+
+
+#userzone{
+    position: absolute;
+    background-color: rgb(201, 201, 201);
+    width: 70%;
+    height: 20%;
+    top: 30%;
+    left: 15%;
+    border: 1px black solid;
+    border-radius: 15px;;
+    
+}
+
+#userimg{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 30%;
+    height: 45%;
+}
+
+#balancediv{
+    position: absolute;
+
+    top:70%;
+    width: 80%;
+    height: 25%;
+    left: 10%;
+    cursor: pointer;
+    border: 1px black solid;
+    border-radius: 25px;;
+}
+
+#userbalance{
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 50%;;
+    left: 10%;
+  
+    font-size: 1.3vw;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    
+}
+
+#blanceimg{
+    position: absolute;
+    top: 10%;
+    width: 20%;
+    height: 80%;
+    left: 0%;
+    text-align: center;
+    
+}
+
+#disconettiimg{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: 15%;
+    height: 5%;
+
+    cursor: pointer;
+}
+
+
+
+
+#leaderboardbutton{
+    position: absolute;
+ font-size: 1.3vw;
+    top:110%;
+    width: 80%;
+    height: 25%;
+    left: 10%;
+    cursor: pointer;
+    border: 1px black solid;
+    border-radius: 25px;;
+}

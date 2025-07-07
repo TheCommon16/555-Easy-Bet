@@ -1,0 +1,31 @@
+#moneydiv{
+    position: absolute;
+    top:100%;
+    width: 25%;
+    height: 25%;
+  
+    right: 0%;
+    height: 10%;
+}
+
+#fiche{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    
+    top: 0%;
+    left: 0%;
+    
+
+
+}
+#money{
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: -50%;
+    left: 50%;
+    font-size: 3vw;
+
+
+}

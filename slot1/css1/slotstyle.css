@@ -1,0 +1,42 @@
+#slot{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left:20%;
+    right: 20%;
+    top: 20%;
+    bottom: 30%;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#space1{
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    left: 7%;
+    top: 20%;
+    /*background-color: aquamarine;*/ 
+
+}
+#space2{
+    position: absolute;
+    width: 26%;
+    height: 50%;
+    left: 37%;
+    top: 20%;
+    /*background-color: blueviolet;*/
+
+}
+#space3{
+    position: absolute;
+    align-items: center;
+    width: 25%;
+    height: 50%;
+    left: 68%;
+    top: 20%;
+    /*background-color: chartreuse;*/
+
+}

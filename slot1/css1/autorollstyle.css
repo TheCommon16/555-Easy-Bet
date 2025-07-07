@@ -1,0 +1,34 @@
+#autorolldiv{
+
+    position: absolute;
+
+    width: 25%;
+    height: 10%;
+    top: 110%;
+    left: 65%;
+
+}
+
+#autorollbutton{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    border:none;
+    color: transparent;
+    cursor: pointer;
+
+}
+
+#autorollimg{
+    position: absolute;
+    left:0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+
+}
+
+#autorollbutton:hover #autorollimg {
+    content: url("../img1/autorollhover.png");
+}

@@ -1,0 +1,20 @@
+#winspace{
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    top: -40%;
+    right: 25%;
+    background-color: rgb(0, 255, 255);
+    border-style: solid;
+    border-radius: 20%;
+    border-width: 5px;
+
+}
+
+
+#winimage{
+    position: absolute;
+    top:10%;
+    left: 2.5%;
+
+}
